@@ -1,0 +1,52 @@
+body {
+    background-color: blue;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.3rem;
+}
+h3 {
+    font-size: 2.1rem;
+}
+header {
+    /*  */
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+nav ul li {
+    /* display: inline; */
+    margin-right: 1em;
+}
+
+/* media query for mobiles */
+@media screen and (max-width: 47.9375em) {
+    body {
+        background-color: red;
+    }
+    nav ul {
+        justify-content: left;
+    }
+}
+
+/* media query for tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: green;
+    }
+}
+/* media query for desktop */
+/* use em's to relative to body font size 
+https://www.w3schools.com/csSref/css_pxtoemconversion.php */
+@media screen and (min-width: 64em) {
+    body {
+        background-color: orange;
+    }
+}
