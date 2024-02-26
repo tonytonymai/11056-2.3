@@ -28,6 +28,9 @@ body {
     nav ul li {
         margin-right: 1 em;
     }
+    .wrapper {
+        background-color: #99cc00;
+    }
     
     @media screen and (max-width: 47.9375em) {
         body {
