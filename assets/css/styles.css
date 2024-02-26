@@ -30,24 +30,38 @@ body {
     }
     .wrapper {
         background-color: #99cc00;
+        width: 80%;
+        margin: 0 auto;
+    }
+    img {
+        width: 100%;
     }
     
+    /* breakpoint for mobile */
     @media screen and (max-width: 47.9375em) {
         body {
             background-color: red; 
+        }
+        .wrapper {
+            width:98%
         }
         nav ul {
             justify-content: left;
             justify-content: space-between;
         }
+        img {
+            max-width: 100%;
+        }
     }
-    
+    /* breakpoint  */
     @media screen and (min-width: 768px) and (max-width: 1023px) {
         body {
             background-color: green; 
+        }img {
+            max-width: 100%;
         }
     }
-    
+    /* breakpoint */
     @media screen and (min-width: 64em) {
         body {
             background-color:  orange; 
